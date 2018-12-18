@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> NEFİS YEMEK TARİFLERİ </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+    
+</head>
+<style>
+body {
+    background-color:indianred;
+}
+</style>
+  
+<div class="container">
+    
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/images/logo.jpg" alt="logo" >
+              </a>
+              <a class="navbar-brand" href="index.html">NEFİS YEMEK TARİFLERİ</a>
+            </div>
+              
+            <div class="search">
+                <form class="navbar-form navbar-left" action="#">
+                  <div class="input-group">
+                    <input type="text" size="80" class="form-control" placeholder="TARİF ARA" name="search">
+                  </div>
+                </form>
+            </div>
+              
+            <div class="nav navbar-nav navbar-center">   
+               <button type="button" class="btn btn-default search-button" >ARA </button>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>  <button type="button" class="btn btn-danger btn-center search-button">Tarif Ekle</button></li>
+              <li><a href="signin.html">ÜYE OL!</a></li>
+              <li><a href="login.html">GİRİŞ!</a></li>
+            </ul>S
+              
+          </div>
+        </nav>
+    </div>
+    
+    <div class="header2" >
+        <nav class="navbar navbar-default" style="background-color:whitesmoke">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html" >ANASAYFA</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="tarifler.html" >TARİFLER</a></li>
+               
+              <li><a href="men%C3%BCler.html" >MENÜLER</a></li>
+              <li><a href="yazarlar.html" >YAZARLAR</a></li>
+              <li><a href="https://blog.juico.com.tr/" >BLOG</a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+    
+    <div class="site-content">
+        <table class="table">
+            <tr>
+                
+                <td>
+                <div class="panel panel-default">
+                    
+                 <div class="panel-body" style="background-color: whitesmoke; color: red"><h4>ET YEMEKLERİ</h4></div>
+                    
+                </div>
+                 
+                 <div class="et">
+                    <a href="#" style="color:black">
+                         <h4>  TARİF BULUNAMADI.</h4>
+                    <img class="img-thumbnail" src="assets/images/image-not-found.jpg"  alt="notfound">
+                    </a>
+                 </div>
+                    
+                 </td>  
+                <td>
+                     <div class="panel panel-default">
+                         <div class="panel-body" style="background-color: whitesmoke; text-align: center;">
+                             <div class="list-group pull-center">
+                                 
+                               <a href="etyemekleri.html" style="color:black">
+                               <button type="button" class="list-group-item" >ET YEMEKLERİ</button> </a>
+                                 <a href="tavukyemekleri.html" style="color:black">
+                               <button type="button" class="list-group-item">TAVUK YEMEKLERİ</button> </a>
+                                 <a href="corbalar.html" style="color:black">
+                               <button type="button" class="list-group-item">ÇORBALAR</button> </a>
+                                 <a href="salatalar.html" style="color:black">
+                               <button type="button" class="list-group-item">SALATA</button> </a>
+                                 <a href="tatlliler.html" style="color:black">
+                               <button type="button" class="list-group-item">TATLI</button> </a>
+                                 <a href="pratiktarifler.html" style="color:black">
+                               <button type="button" class="list-group-item">PRATİK TARİFLER</button> </a>
+                                 <a href="sebzeler.html" style="color:black">
+                               <button type="button" class="list-group-item"> SEBZE TARİFLERİ </button> </a>
+                                 
+                            </div>
+                         </div>
+                    </div>S
+                    
+                     <div class="panel panel-default">
+                    
+                 <div class="panel-body" style="background-color: whitesmoke">
+                     <h6 style="color:firebrick"> Yeterli ve dengeli beslen, sağlıklı ve uzun yaşa. 
+                     </h6>
+                 </div>
+                    
+                </div>
+                    
+                    <div class="contact-form2" >
+                        <div class="panel panel-default">
+                            <div class="panel-body"> <p> <strong> İLETİŞİM </strong> </p>
+                                <form>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">İsminiz</label>
+                                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder=" İsminizi giriniz">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleEmail">E mail </label>
+                                    <input type="mail" class="form-control" id="exampleEmail" placeholder="Email">
+                                  </div>
+                                    <ul><label for="country" style="margin-left: 1px">Ülke</label>
+                                      <select id="country" name="country">
+                                        <option value="turkey">Turkey</option>
+                                        <option value="azerbaijan">Azerbaijan</option>
+                                        <option value="usa">USA</option>
+                                      </select> 
+                                    </ul>
+                                     <ul><textarea id="subject" name="subject" placeholder="Yazınız.." style="height:200px">
+                                         </textarea>
+                                    </ul>
+                                  <button type="submit" class="btn btn-danger">Gönder</button>
+                                </form>      
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+              </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div style = "background-color:black; color: aliceblue; width:100%">
+            <center>
+               All Rights Reserved 2018.
+            </center>
+        </div>
+</body>
+</html>
